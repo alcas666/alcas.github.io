@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pupi Indumentaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con fondo gris -->
+    <header class="header">
+        <div class="logo">PUPI INDUMENTARIA</div>
+        <nav class="navbar">
+            <ul class="menu">
+                 <li><a href="#inicio">Inicio</a></li>
+        	<li><a href="#productos">Productos</a></li>
+        	<li><a href="https://wa.me/message/IYWSLPKT2FFLP1?fbclid=PAZXh0bgNhZW0CMTEAAaZnRlgMHJxw97ElOZH1mJj ikgv7fQtt9j7zDOS_pgLOj4mdoxQgCJyzGI_aem_bmTq0X3kolZ66_rwwKlDwg" target="_blank">Contacto</a></li>
+    	    </ul>
+	</nav>
+    </header>
+
+    <main>
+        <section id="filtros">
+            <h2>Filtros</h2>
+            <div class="filtro-categoria">
+                <h3>Categorías</h3>
+                <button onclick="filtrarCategoria('masculino')">Masculino</button>
+                <button onclick="filtrarCategoria('femenino')">Femenino</button>
+                <button onclick="filtrarCategoria('Niño')">Niño</button>
+                <button onclick="mostrarTodo()">Mostrar Todo</button> <!-- Nuevo botón para mostrar todo -->
+            </div>
+        </section>
+
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="productos-container" id="productos-container"></div>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <ul class="redes">
+            <li><a href="https://www.instagram.com/pupiindumentariaarguello?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram:@pupiindumentariaarguello</a></li>
+            <li><a href="https://wa.me/message/IYWSLPKT2FFLP1?fbclid=PAZXh0bgNhZW0CMTEAAaZnRlgMHJxw97ElOZH1mJj-ikgv7fQtt9j7zDOS_pgLOj4mdoxQgCJyzGI_aem_bmTq0X3kolZ66_rwwKlDwg" target="_blank">WhatsApp: 3515646612</a></li>
+        </ul>
+        <p>Dirección: TTe. Gral. Donato Alvarez 8370, Ciudad</p>
+        <p><strong>Horarios de Atención:</strong><br>
+            Martes a Sábados de 9:30 a 13:00 horas y de 17:30 a 21:00 horas.
+        </p>
+    </div>
+</footer>
+
+<div class="medios">
+    <div class="medios-pago">
+        <h3>Medios de pago</h3>
+        <div class="lista-medios-pago">
+            <div class="medio">
+                <span>Visa</span>
+                <img src="imagenes/visa.png" alt="Visa">
+            </div>
+            <div class="medio">
+                <span>Mastercard</span>
+                <img src="imagenes/mastercard.png" alt="Mastercard">
+            </div>
+            <div class="medio">
+                <span>Naranja</span>
+                <img src="imagenes/naranja.png" alt="Naranja">
+            </div>
+            <div class="medio">
+                <span>MercadoPago</span>
+                <img src="imagenes/mercadopago.png" alt="MercadoPago">
+            </div>
+        </div>
+    </div>
+
+    	<div class="medios-envio">
+        	<h3>Medios de envío</h3>
+        	<div class="lista-medios-envio">
+            <div class="medio">
+                <span>Envio particular</span>
+                <img src="imagenes/auto.png" alt="Envio particular">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="modal" class="modal">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <img id="modal-img" class="modal-content">
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

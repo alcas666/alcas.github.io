@@ -1,0 +1,26 @@
+
+[
+    {
+        "nombre": "Remera básica",
+        "imagen": "remera.jpg",
+        "precio": 20000,
+        "categoria": "masculino",
+        "tipo": "remera"
+    },
+    {
+        "nombre": "Vestido Dama",
+        "imagen": "vestidodama.jpg",
+        "precio": 60000,
+        "categoria": "femenino",
+        "tipo": "vestido"
+    },
+    {
+        "nombre": "Remera Niño",
+        "imagen": "remeraniño.jpg",
+        "precio": 13000,
+        "categoria": "Niño",
+        "tipo": "Niño"
+    }
+]
+
+.
